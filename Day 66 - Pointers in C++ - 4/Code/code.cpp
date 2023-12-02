@@ -24,4 +24,5 @@ int main () {
     fun(p);
     cout<<n<<endl; 
 
+
 }
