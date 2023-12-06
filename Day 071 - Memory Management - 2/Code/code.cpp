@@ -51,4 +51,5 @@ int main()
         for (int j = 0; j < B; j++)
             for (int k = 0; k < H; k++)
                 cout << ptr[i][j][k] << " ";
+
 }
