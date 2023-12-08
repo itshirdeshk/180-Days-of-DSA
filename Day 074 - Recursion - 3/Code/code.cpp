@@ -46,4 +46,5 @@ int main()
     // Print sum of square of N numbers
     int n = 5;
     cout << sqSum(n);
+
 }
