@@ -26,4 +26,5 @@ int gcd(int A, int B)
     return gcd(B, A % B);
 }
 
+
 int main() {}
