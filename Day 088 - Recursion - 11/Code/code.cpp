@@ -7,7 +7,7 @@ int subset(int arr[], int index, int sum, int n)
     if (index == n)
         return sum == 0;
 
-    return subset(arr, index + 1, sum, n) + subset(arr, index + 1, sum + arr[index], n);
+    return subset(arr, index + 1, sum, n) + subset(arr, index + 1, sum - arr[index], n);
 }
 
 // Q2. Target Sum Repeatition
