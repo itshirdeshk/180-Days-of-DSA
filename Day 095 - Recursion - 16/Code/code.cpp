@@ -2,6 +2,7 @@
 #include <vector>
 using namespace std;
 
+// Q1. Rat in a Maze.
 int row[4] = {-1, 1, 0, 0};
 int col[4] = {0, 0, -1, 1};
 string dir = "UDLR";
