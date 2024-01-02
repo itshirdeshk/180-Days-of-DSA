@@ -20,4 +20,5 @@ void find(int N, vector<string> &ans, string &temp, int zero, int one){
         }
     }
 
+
 int main() {}
