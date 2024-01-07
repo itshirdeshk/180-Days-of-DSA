@@ -70,4 +70,5 @@ int main()
     Student S("Hirdesh", 20, 50, 28, 1000);
     S.display();
 
+
 }
