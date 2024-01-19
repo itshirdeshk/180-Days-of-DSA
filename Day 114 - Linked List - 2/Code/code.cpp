@@ -112,4 +112,5 @@ int main()
         cout << Head->data << " ";
         Head = Head->next;
     }
+
 }
