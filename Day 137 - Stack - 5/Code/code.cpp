@@ -37,4 +37,9 @@ int celebrity(vector<vector<int>> &M, int n)
     return row == 0 && col == n - 1 ? num : -1;
 }
 
+
+
+
+
+
 int main() {}
