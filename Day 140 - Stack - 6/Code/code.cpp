@@ -4,7 +4,7 @@
 #include <limits.h>
 using namespace std;
 
-// Q1.
+// Q1. Get minimum element from stack.
 // Method 1:
 class Solution
 {
@@ -107,7 +107,7 @@ public:
     }
 };
 
-// Q2.
+// Q2. Maximum of minimum for every window size.
 // Method 1:
 vector<int> maxOfMin(int arr[], int n)
 {
