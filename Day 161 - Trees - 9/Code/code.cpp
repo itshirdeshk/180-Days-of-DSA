@@ -98,4 +98,5 @@ void flatten(Node *root)
     }
 }
 
+
 int main() {}
