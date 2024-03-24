@@ -48,7 +48,7 @@ int trap(vector<int> &height)
     return water;
 }
 
-// Q2. Two Sum.
+// Q2. Three Sum.
 bool find3Numbers(int A[], int n, int X)
 {
     // Your Code Here
