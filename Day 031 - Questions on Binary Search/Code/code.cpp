@@ -105,7 +105,7 @@ int mySqrt(int x)
     return ans;
 }
 
-// Q4. Peak Index in a Mountain Array.
+// Q4. Kth Missing Positive Number.
 int findKthPositive(vector<int> &arr, int k)
 {
     int start = 0, end = arr.size() - 1, ans = arr.size();
