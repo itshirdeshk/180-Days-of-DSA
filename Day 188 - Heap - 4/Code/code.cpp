@@ -41,7 +41,28 @@ int findKthLargest(vector<int> &arr, int k)
 }
 
 // Q3. Kth largest element in a stream.
+// (Homework Question)
+vector<int> kthLargest(int k, int arr[], int n)
+{
+    // code here
+    vector<int> ans;
+    priority_queue<int, vector<int>, greater<int>> p;
 
+    for (int i = 0; i < n; i++)
+    {
+        p.push(arr[i]);
+        if (p.size() < k)
+            ans.push_back(-1);
+        else
+        {
+            if (p.size() > k)
+                p.pop();
+            ans.push_back(p.top());
+        }
+    }
+
+    return ans;
+}
 
 // Q4. Sum of elements between k1'th and k2'th smallest elements.
 long long sumBetweenTwoKth(long long A[], long long N, long long K1, long long K2)
