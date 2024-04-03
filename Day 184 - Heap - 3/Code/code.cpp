@@ -100,6 +100,24 @@ int lastStoneWeight(vector<int> &stones)
 }
 
 // Q5. Take Gifts From the Richest Pile.
+long long pickGifts(vector<int> &gifts, int k)
+{
+    priority_queue<int> p(gifts.begin(), gifts.end());
+    while (k--)
+    {
+        p.push(floor(sqrt(p.top())));
+        p.pop();
+    }
+
+    long long sum = 0;
+    while (!p.empty())
+    {
+        sum += p.top();
+        p.pop();
+    }
+
+    return sum;
+}
 
 // Q6. Profit Maximisation.
 int solve(vector<int> &A, int B)
