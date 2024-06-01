@@ -62,4 +62,5 @@ vector<int> shortestPath(int N, int M, vector<vector<int>> &edges)
     return dist;
 }
 
+
 int main() {}
