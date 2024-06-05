@@ -21,8 +21,8 @@ vector<int> shortestPath(int V, int m, vector<vector<int>> &edges)
 
     // Dijkstra's Algo
     vector<bool> explore(V + 1, 0);
-    vector<bool> dist(V + 1, INT_MAX);
-    vector<bool> parent(V + 1, -1);
+    vector<int> dist(V + 1, INT_MAX);
+    vector<int> parent(V + 1, -1);
 
     priority_queue<pair<int, int>, vector<pair<int, int>>, greater<pair<int, int>>> p;
     p.push({0, 1});
