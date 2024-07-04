@@ -78,4 +78,5 @@ int kosaraju(int V, vector<vector<int>> &adj)
     return SCC;
 }
 
+
 int main() {}
