@@ -57,4 +57,5 @@ vector<vector<int>> criticalConnections(int n, vector<vector<int>> &connections)
     return Bridges;
 }
 
+
 int main() {}
